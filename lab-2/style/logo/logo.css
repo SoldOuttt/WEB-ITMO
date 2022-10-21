@@ -1,0 +1,9 @@
+.logo {
+    padding-right: 10px;
+    width: 264px;
+    height: 74px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

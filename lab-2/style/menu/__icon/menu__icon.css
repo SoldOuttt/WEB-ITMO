@@ -1,0 +1,8 @@
+.menu__icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: 10px;
+}
