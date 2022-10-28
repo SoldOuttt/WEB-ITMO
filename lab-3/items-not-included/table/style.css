@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#population {
+    font-family: "Arial", sans-serif;
+    width: 100vw;
+    border-collapse: collapse;
+}
+
+#population caption {
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 2vw;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 6vh;
+}
+
+#population thead {
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#population th,#population td {
+    border: 1px solid black;
+    line-height: 5vh;
+}
+
+#population td {
+    font-size: 1.7vw;
+}
+
+#population tbody tr:nth-child(odd) {
+    background-color: #BDE0FE;
+}
+
+#population tbody tr:nth-child(even) {
+    background-color: #FFE4EF;
+}
+
+#population tbody tr td:nth-child(5n + 1) {
+    text-align: center;
+}
+
+#population tbody tr:hover {
+    background-color: #DB96AF;
+}
+

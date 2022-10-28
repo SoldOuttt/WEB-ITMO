@@ -1,0 +1,6 @@
+.footer__low-bar__second-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 321px;
+}
