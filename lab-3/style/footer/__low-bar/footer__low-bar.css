@@ -1,0 +1,7 @@
+.footer__low-bar {
+    display: flex;
+    height: 150px;
+    width: 1130px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
