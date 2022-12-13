@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-height: 840px) {
+    footer {
+        display: none;
+    }
+}
