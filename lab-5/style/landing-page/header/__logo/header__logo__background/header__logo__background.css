@@ -1,0 +1,11 @@
+.header__logo__background {
+    padding-right: 10px;
+    width: 264px;
+    height: 74px;
+    /*width: 31.32vh;*/
+    /*height: 8.8vh;*/
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

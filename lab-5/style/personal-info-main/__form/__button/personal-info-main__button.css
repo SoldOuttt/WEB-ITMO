@@ -1,0 +1,18 @@
+.personal-info-main__button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.personal-info-main__button:hover {
+    background-color: #DB96AF;
+}
