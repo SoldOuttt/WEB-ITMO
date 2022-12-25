@@ -1,0 +1,12 @@
+.header__menu-icon {
+    position: fixed;
+    left: 12px;
+    top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 26px;
+    width: 38px;
+    cursor: pointer;
+    z-index: 2;
+}

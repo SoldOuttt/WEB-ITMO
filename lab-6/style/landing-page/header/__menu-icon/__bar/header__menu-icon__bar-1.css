@@ -1,0 +1,9 @@
+.header__menu__icon__bar-1 {
+    width: 38px;
+    height: 4px;
+    transition: 0.5s;
+}
+
+.change .header__menu__icon__bar-1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}

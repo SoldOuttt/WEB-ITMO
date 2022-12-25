@@ -1,0 +1,50 @@
+.todos-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#todos {
+    font-family: "Hattori Hanzo", sans-serif;
+    border-collapse: collapse;
+}
+
+#todos caption {
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 2vw;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 6vh;
+}
+
+#todos thead {
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#todos th,#todos td {
+    border: 1px solid black;
+    line-height: 5vh;
+}
+
+#todos td {
+    font-size: 1.7vw;
+}
+
+#todos tbody tr:nth-child(odd) {
+    background-color: #BDE0FE;
+}
+
+#todos tbody tr:nth-child(even) {
+    background-color: #FFE4EF;
+}
+
+#todos tbody tr td:nth-child(5n + 1) {
+    text-align: center;
+}
+
+#todos tbody tr:hover {
+    background-color: #DB96AF;
+}
+

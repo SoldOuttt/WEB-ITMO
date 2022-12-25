@@ -1,0 +1,9 @@
+.main__content__slogan-with-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    width: 474px;
+    align-self: center;
+    margin-bottom: 120px;
+}
