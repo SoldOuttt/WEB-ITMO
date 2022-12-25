@@ -1,0 +1,6 @@
+.personal-info-main__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+}
