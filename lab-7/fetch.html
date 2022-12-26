@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch Page</title>
+    <!--    script -->
+    <script type="text/javascript" src="script/setup-on-load.js"></script>
+    <script type="text/javascript" src="script/fetch.js"></script>
+
+    <!--    body-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/body/body.css">
+    <!--    color-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/color__1.css.css">
+    <!--    background color-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__1.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__2.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__3.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__4.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__5.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__6.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__7.css">
+    <!--    text-->
+    <link rel="stylesheet" type="text/css" href="style/text/__head/text__head__Rokkitt-55.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__head/text__head__Hattori-28.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__main/text__main__Hattori-35.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__main/text__main__Hattori-20.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__main/text__main__Hattori-28.css">
+    <!--    header-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/header.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__logo/header__logo.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/landing-page/header/__logo/header__logo__background/header__logo__background.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__menu-icon/header__menu-icon.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/landing-page/header/__menu-icon/__bar/header__menu-icon__bar-1.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/landing-page/header/__menu-icon/__bar/header__menu-icon__bar-2.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/landing-page/header/__menu-icon/__bar/header__menu-icon__bar-3.css">
+    <!--menu-->
+    <link rel="stylesheet" type="text/css" href="style/menu/menu.css">
+    <link rel="stylesheet" type="text/css" href="style/menu/__blur/menu__blur.css">
+    <link rel="stylesheet" type="text/css" href="style/menu/__item/menu__item.css">
+    <!--preloader-->
+    <link rel="stylesheet" type="text/css" href="style/preloader.css">
+    <!--table-->
+    <link rel="stylesheet" type="text/css" href="style/table.css">
+</head>
+<body>
+<header>
+    <div class="header__menu-icon" onclick="openMenu(this)">
+        <div class="menu__blur">
+        </div>
+        <div id="menu">
+            <a href="index.html" class="menu__item text__main__Hattori-28 color__1">Landing Page</a>
+            <a href="personal-info.html" class="menu__item text__main__Hattori-28 color__1">Personal Info Page</a>
+            <a href="live-preview.html" class="menu__item text__main__Hattori-28 color__1">Live Preview Page</a>
+            <a href="fetch.html" class="menu__item text__main__Hattori-28 color__1">Fetch Page</a>
+            <a href="module.html" class="menu__item text__main__Hattori-28 color__1">Module Page</a>
+        </div>
+        <div class="header__menu__icon__bar-1 color__background__1"></div>
+        <div class="header__menu__icon__bar-2 color__background__1"></div>
+        <div class="header__menu__icon__bar-3 color__background__1"></div>
+    </div>
+    <div class="header__logo">
+        <div class="header__logo__background color__background__6">
+            <div class="header__logo">
+                <!--                <img style="width: 12.5vh" src="image/logo.svg" alt="logo">-->
+                <img src="image/logo.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+</header>
+<div id="preloader-box">
+    <div id="preloader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div class="todos-box">
+    <div id="todos"></div>
+</div>
+<script>
+    setupOnLoad()
+    setTimeout(createTable, 2000)
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab-7</title>
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/sky.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>DreamJob is a project in which you can create your resume in a couple of minutes</section>
+        <section>On the landing page is a basic description of the project</section>
+        <section><img src="/lab-1/design-plan/langing.png"></section>
+        <section>In order to generate a resume the user must fill out the forms with his data</section>
+        <section>
+            <section><img src="/lab-1/design-plan/personal%20info.png"></section>
+            <section><img src="/lab-1/design-plan/education.png"></section>
+            <section><img src="/lab-1/design-plan/work%20experience.png"></section>
+            <section><img src="/lab-1/design-plan/programming%20skills.png"></section>
+            <section><img src="/lab-1/design-plan/projects.png"></section>
+        </section>
+        <section>After receiving all the data, the user will be prompted to download
+            the generated file in pdf format
+        </section>
+        <section><img src="/lab-1/design-plan/resume%20template.png"></section>
+        <section>Use and enjoy!</section>
+    </div>
+</div>
+<script type="module">
+    import Reveal from '/reveal.js/dist/reveal.esm.js';
+    import Markdown from '/reveal.js/plugin/markdown/markdown.esm.js';
+
+    Reveal.initialize({
+        plugins: [Markdown]
+    });
+</script>
+</body>
+</html>

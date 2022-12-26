@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--    script -->
+    <script type="text/javascript" src="script/setup-on-load.js"></script>
+
+    <!--    body-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/body/body.css">
+    <!--    color-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/color__1.css.css">
+    <!--    background color-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__1.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__2.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__3.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__4.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__5.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__6.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/color/__background/color__background__7.css">
+    <!--    text-->
+    <link rel="stylesheet" type="text/css" href="style/text/__head/text__head__Rokkitt-55.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__head/text__head__Hattori-28.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__main/text__main__Hattori-35.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__main/text__main__Hattori-20.css">
+    <link rel="stylesheet" type="text/css" href="style/text/__main/text__main__Hattori-28.css">
+    <!--    header-->
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/header.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__logo/header__logo.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/landing-page/header/__logo/header__logo__background/header__logo__background.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__menu-icon/header__menu-icon.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__menu-icon/__bar/header__menu-icon__bar-1.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__menu-icon/__bar/header__menu-icon__bar-2.css">
+    <link rel="stylesheet" type="text/css" href="style/landing-page/header/__menu-icon/__bar/header__menu-icon__bar-3.css">
+    <!--    main-->
+    <link rel="stylesheet" type="text/css" href="style/personal-info-main/personal-info-main.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/personal-info-main/__description/personal-info-main__description.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/personal-info-main/__description/__bar/personal-info__description__bar.css">
+    <link rel="stylesheet" type="text/css" href="style/personal-info-main/__form/personal-info-main__form.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/personal-info-main/__form/__part/personal-info-main__form__part.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/personal-info-main/__form/__part/__input/personal-info-main__form__part__input.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/personal-info-main/__form/__part/__label/personal-info-main__form__part__label.css">
+    <link rel="stylesheet" type="text/css"
+          href="style/personal-info-main/__form/__button/personal-info-main__button.css">
+    <!--menu-->
+    <link rel="stylesheet" type="text/css" href="style/menu/menu.css">
+    <link rel="stylesheet" type="text/css" href="style/menu/__blur/menu__blur.css">
+    <link rel="stylesheet" type="text/css" href="style/menu/__item/menu__item.css">
+    <title>Personal Info</title>
+</head>
+<body>
+<header>
+    <div class="header__menu-icon" onclick="openMenu(this)">
+        <div class="menu__blur">
+        </div>
+        <div id="menu">
+            <a href="index.html" class="menu__item text__main__Hattori-28 color__1">Landing Page</a>
+            <a href="personal-info.html" class="menu__item text__main__Hattori-28 color__1">Personal Info Page</a>
+            <a href="live-preview.html" class="menu__item text__main__Hattori-28 color__1">Live Preview Page</a>
+            <a href="fetch.html" class="menu__item text__main__Hattori-28 color__1">Fetch Page</a>
+            <a href="module.html" class="menu__item text__main__Hattori-28 color__1">Module Page</a>
+        </div>
+        <div class="header__menu__icon__bar-1 color__background__1"></div>
+        <div class="header__menu__icon__bar-2 color__background__1"></div>
+        <div class="header__menu__icon__bar-3 color__background__1"></div>
+    </div>
+    <div class="header__logo">
+        <div class="header__logo__background color__background__6">
+            <div class="header__logo">
+                <!--                <img style="width: 12.5vh" src="image/logo.svg" alt="logo">-->
+                <img src="image/logo.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+</header>
+<div class="personal-info-main">
+    <div class="personal-info-main__description">
+        <div class="text__head__Rokkitt-55 color__1">
+            Personal Info
+        </div>
+        <div class="personal-info__description__bar">
+            <img src="icon/personal-info-bar.svg" alt="personal-info-bar">
+        </div>
+    </div>
+    <form method="get" action=".." class="personal-info-main__form color__1">
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                Name
+            </div>
+            <input type="text" autocomplete="off" name="name"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                Country
+            </div>
+            <input type="text" autocomplete="off" name="country"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                Email
+            </div>
+            <input type="text" autocomplete="off" name="email"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                GitHub link
+            </div>
+            <input type="text" autocomplete="off" name="git-link"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                Surname
+            </div>
+            <input type="text" autocomplete="off" name="surname"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                City
+            </div>
+            <input type="text" autocomplete="off" name="city"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <div class="personal-info-main__form__part">
+            <div class="personal-info-main__form__part__label text__main__Hattori-20">
+                Phone number
+            </div>
+            <input type="text" autocomplete="off" name="phone-number"
+                   class="personal-info-main__form__part__input text__main__Hattori-28">
+        </div>
+        <button type="submit" class="personal-info-main__button
+                            color__1
+                            color__background__2
+                            text__main__Hattori-35">
+            Next step
+        </button>
+    </form>
+</div>
+<script>
+    setupOnLoad()
+</script>
+</body>
+</html>

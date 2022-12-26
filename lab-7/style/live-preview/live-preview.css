@@ -1,0 +1,29 @@
+.live-preview__main {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+}
+
+.live-preview__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 920px;
+    height: 640px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .4);
+    border-radius: 20px;
+}
+
+#live-preview__preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 640px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .4);
+}
