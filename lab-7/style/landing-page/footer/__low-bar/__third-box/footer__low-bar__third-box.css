@@ -1,0 +1,6 @@
+.footer__low-bar__third-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 239px;
+}
